@@ -2,7 +2,6 @@
 definitions:
 - fife_specs:
   - awscli
-  - cigetcert
   - data-dispatcher
   - fife-utils
   - hypotcode
