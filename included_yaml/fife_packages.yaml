@@ -30,9 +30,13 @@ packages:
   poms-jobsub-wrapper:
     require:
     - '@4.5.1'
-  rucio-clients:
+  py-rucio-clients:
     require:
     - '@38.5.1'
   sam-web-client:
     require:
     - '@3.6'
+  gfal2:
+    require:
+    - '@2.23.0'
+    - '+dcap+file+http+xrootd'
