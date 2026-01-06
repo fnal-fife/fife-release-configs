@@ -11,5 +11,5 @@ definitions:
   - metacat
   - poms-client
   - poms-jobsub-wrapper
-  - rucio-clients
+  - py-rucio-clients
   - sam-web-client
