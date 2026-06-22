@@ -39,3 +39,8 @@ packages:
   postgresql:
     require:
     - '+gssapi'
+  gfal2:
+    require:
+    - '@2.23.0'
+    - '+dcap+file+http+xrootd'
+
