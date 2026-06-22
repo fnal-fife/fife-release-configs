@@ -26,7 +26,7 @@ packages:
     - '@v1_4'
   metacat:
     require:
-    - '@4.0.2'
+    - '@4.1.4'
   poms-client:
     require:
     - '@4.5.2'
@@ -39,4 +39,9 @@ packages:
   sam-web-client:
     require:
     - '@3.6'
+  # we want gssapi support in our postgres clients so we can
+  # admin the SAM, MetaCat, etc. databases
+  postgresql:
+    require:
+    - '+gssapi'
 
