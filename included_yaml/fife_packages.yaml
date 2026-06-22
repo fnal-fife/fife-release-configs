@@ -2,9 +2,6 @@ packages:
   awscli:
     require:
     - '@1.29.41'
-  cigetcert:
-    require:
-    - '@1.21'
   data-dispatcher:
     require:
     - '@2.0.3'
@@ -39,4 +36,6 @@ packages:
   sam-web-client:
     require:
     - '@3.6'
-
+  postgresql:
+    require:
+    - '+gssapi'
