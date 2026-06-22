@@ -2,9 +2,6 @@ packages:
   awscli:
     require:
     - '@1.29.41'
-  cigetcert:
-    require:
-    - '@1.21'
   data-dispatcher:
     require:
     - '@2.0.3'
@@ -26,16 +23,20 @@ packages:
     - '@v1_4'
   metacat:
     require:
+<<<<<<< HEAD
     - '@4.1.4'
+=======
+    - '@4.1.3'
+>>>>>>> 4d43722522644a481f2b8aa7a4981b98a5df30e5
   poms-client:
     require:
     - '@4.5.2'
   poms-jobsub-wrapper:
     require:
     - '@4.5.1'
-  rucio-clients:
+  py-rucio-clients:
     require:
-    - '@37.0.0'
+    - '@38.5.1'
   sam-web-client:
     require:
     - '@3.6'
@@ -44,4 +45,7 @@ packages:
   postgresql:
     require:
     - '+gssapi'
-
+  gfal2:
+    require:
+    - '@2.23.0'
+    - '+dcap+file+http+xrootd'

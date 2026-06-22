@@ -4,6 +4,7 @@ Spack environment config files for releases
 SHA256 checksums:
 
 ```
-57a08c8d8240cf4b04249d93c5c21e2d014b046c5d55b5550a11856f94344738  fife_packages.yaml
-98eca35ee2c73f430eba2504b5b3dffac307fdde5a65fa6796b52b78530ac035  fife_specs.yaml
+b7b7ef7ceaaa947c2cead036409f04aac94f5de357f6b7407699d00d511cfaa3  fife_packages.yaml
+b0306775ce16510f7d099d597b3e07cd118f0a178362fdaea0273a8b788eca37  fife_specs.yaml
+
 ```
