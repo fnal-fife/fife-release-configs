@@ -10,6 +10,5 @@ definitions:
   - k5arc
   - metacat
   - poms-client
-  - poms-jobsub-wrapper
   - py-rucio-clients
   - sam-web-client
