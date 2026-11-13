@@ -13,11 +13,11 @@ packages:
     - '@2.1'
   ifdhc:
     require:
-    - '@2.8.0'
+    - '@2.8'
     - cxxstd=11
   ifdhc-config:
     require:
-    - '@2.8.0'
+    - '@2.8'
   k5arc:
     require:
     - '@v1_4'
